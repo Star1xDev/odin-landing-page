@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/**************
+ general styles
+***************/
+
+html{
+  font-family: Roboto, sans-serif;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+.container{
+  width: 70rem;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+
+/**************
+ header styles
+***************/
+
+.header{
+  background: #1F2937;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo{
+  font-size: 1.7rem;
+}
+
+.header__nav ul{
+  display: flex;
+}
+
+.header__nav li{
+  margin-left: 1rem;
+}
+
+.header__nav a{
+  color: #fff;
+  text-transform: capitalize;
+  display: block;
+  padding: .5rem;
+}
+
+.header__nav a:hover{
+  color: #ddd;
+}
+
+
