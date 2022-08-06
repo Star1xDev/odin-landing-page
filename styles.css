@@ -113,10 +113,16 @@ ul{
   background: #3882F6;
   border: none;
   color: #fff;
-  padding: .8rem 3rem;
-  border-radius: 10px;
-  font-size: 1.5rem;
+  padding: 1rem 3rem;
+  border-radius: 7px;
+  font-size: 1.6rem;
   font-weight: 700;
+  transition: 300ms;
+}
+
+.hero__cta:hover{
+  background: #fff;
+  color: #3882F6;
 }
 
 .hero__img{
@@ -204,6 +210,51 @@ ul{
   content: "-"
 }
 
+
+
+
+
+/*****************************
+ CallToAction section styles
+******************************/
+
+.callToAction{
+  padding: 6rem 0;
+}
+
+.content{
+  padding: 5rem 10rem;
+  background: #3882F6;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content__headline{
+  font-size: 2rem;
+  color: #F9FAF8;
+}
+
+.content__subheading{
+  font-size: 1.6rem;
+  color: #E5E7EB;
+}
+
+button.signup{
+  background: none;
+  border: 2px solid #fff;
+  border-radius: 7px;
+  color: #fff;
+  padding: 1rem 3rem;
+  font-size: 1.6rem;
+  transition: 300ms;
+}
+
+button.signup:hover{
+  background: #fff;
+  color: #3882F6;
+}
 
 
 
