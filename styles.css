@@ -176,3 +176,35 @@ ul{
 
 
 
+
+/*******************
+ quote section styles
+**********************/
+
+.quote{
+  padding: 10rem 0;
+  background: #E5E7EB;
+}
+
+.quote__text{
+  font-size: 3.6rem;
+  font-weight: 300;
+  width: 40ch;
+  margin: 0 auto;
+}
+
+.quote__teller{
+  text-align: right;
+  font-size: 2rem;
+  padding-right: 6rem;
+  margin-top: 2rem;
+}
+
+.quote__teller::before{
+  content: "-"
+}
+
+
+
+
+
