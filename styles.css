@@ -259,3 +259,16 @@ button.signup:hover{
 
 
 
+/**************
+ footer styles
+***************/
+
+
+.footer{
+  padding: 3rem 0;
+  text-align: center;
+  background: #1F2937;
+  color: #E5E7EB;
+  font-size: 1.6rem;
+}
+
